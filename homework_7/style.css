@@ -1,0 +1,269 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,400;1,700&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto;
+    margin: 0;
+    background-color: #1A226B;
+}
+.container {
+    position: relative;
+    width: calc(600 / 1440 * 100vw);
+    height: calc(412 / 1440 * 100vw);
+    left: calc(412 / 1440 * 100vw);
+    top: calc(82 / 1440 * 100vw);
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+    border-radius: calc(20 / 1440 * 100vw);
+}
+.container__heading {
+    position: absolute;
+    width: calc(115 / 1440 * 100vw);
+    height: calc(50 / 1440 * 100vw);
+    left: calc(242 / 1440 * 100vw);
+    top: calc(26 / 1440 * 100vw);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: calc(700 / 1440 * 100vw);
+    font-size: calc(50 / 1440 * 100vw);
+    line-height: calc(50 / 1440 * 100vw);
+    color: #787878;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.form-label__email {
+    position: absolute;
+    width: calc(40 / 1440 * 100vw);
+    height: calc(16 / 1440 * 100vw);
+    left: calc(53 / 1440 * 100vw);
+    top: calc(93 / 1440 * 100vw);
+    margin-top: calc(2 / 1440 * 100vw);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: calc(700 / 1440 * 100vw);
+    font-size: calc(16 / 1440 * 100vw);
+    line-height: calc(16 / 1440 * 100vw);
+    color: #787878;
+}
+.input__email {
+    position: absolute;
+    width: calc(510 / 1440 * 100vw);
+    height: calc(49 / 1440 * 100vw);
+    left: calc(45 / 1440 * 100vw);
+    top: calc(112 / 1440 * 100vw);
+    margin-top: calc(3 / 1440 * 100vw);
+    border: 2px solid #787878;
+    border-radius: calc(10 / 1440 * 100vw);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: calc(700 / 1440 * 100vw);
+    font-size: calc(28 / 1440 * 100vw);
+    line-height: calc(36 / 1440 * 100vw);
+    color: #787878;
+}
+.form-label__password {
+    position: absolute;
+    width: calc(56 / 1440 * 100vw);
+    height: calc(16 / 1440 * 100vw);
+    left: calc(53 / 1440 * 100vw);
+    top: calc(174 / 1440 * 100vw);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: calc(700 / 1440 * 100vw);
+    font-size: calc(16 / 1440 * 100vw);
+    line-height: calc(16 / 1440 * 100vw);
+    color: #787878;
+}
+.input__password {
+    position: absolute;
+    width: calc(510 / 1440 * 100vw);
+    height: calc(49 / 1440 * 100vw);
+    left: calc(45 / 1440 * 100vw);
+    top: calc(193 / 1440 * 100vw);
+    border: 2px solid #787878;
+    border-radius: calc(10 / 1440 * 100vw);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: calc(700 / 1440 * 100vw);
+    font-size: calc(28 / 1440 * 100vw);
+    line-height: calc(36 / 1440 * 100vw);
+    color: #CCCCCC;
+}
+.checkbox {
+    position: absolute;
+    width: calc(24 / 1440 * 100vw);
+    height: calc(24 / 1440 * 100vw);
+    left: calc(45 / 1440 * 100vw);
+    top: calc(258 / 1440 * 100vw);
+    background: #FFFFFF;
+    border: 2px solid #787878;
+    border-radius: calc(7 / 1440 * 100vw);
+}
+.text__checkbox {
+    position: absolute;
+    width: calc(278 / 1440 * 100vw);
+    height: calc(16 / 1440 * 100vw);
+    left: calc(90 / 1440 * 100vw);
+    top: calc(270 / 1440 * 100vw);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: calc(400 / 1440 * 100vw);
+    font-size: calc(14 / 1440 * 100vw);
+    line-height: calc(16 / 1440 * 100vw);
+    color: #787878;
+}
+.button {
+    position: absolute;
+    width: calc(180 / 1440 * 100vw);
+    height: calc(52 / 1440 * 100vw);
+    left: calc(210 / 1440 * 100vw);
+    top: calc(334 / 1440 * 100vw);
+    background: #1B2473;
+    border-radius: calc(10 / 1440 * 100vw);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: calc(700 / 1440 * 100vw);
+    font-size: calc(50 / 1440 * 100vw);
+    line-height: calc(50 / 1440 * 100vw);
+    color: #787878; 
+}
+
+@media screen and (max-width: 769px) {
+        .container {
+        position: relative;
+        width: calc(737 / 768 * 100vw);
+        height: calc(737 / 768 * 100vw);
+        left: calc(20 / 768 * 100vw);
+        top: calc(20 / 768 * 100vw);
+        right: calc(20 / 768 * 100vw);
+        bottom: calc(20 / 768 * 100vw);
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+        border-radius: calc(20 / 1440 * 100vw);
+    }
+    .container__heading {
+        position: absolute;
+        width: calc(138 / 768 * 100vw);
+        height: calc(50 / 768 * 100vw);
+        left: calc(288 / 768 * 100vw);
+        top: calc(38 / 768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: calc(700 / 768 * 100vw);
+        font-size: calc(50 / 768 * 100vw);
+        line-height: calc(50 / 768 * 100vw);
+        color: #787878;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .form-label__email {
+        position: absolute;
+        width: calc(60 / 768 * 100vw);
+        height: calc(16 / 768 * 100vw);
+        left: calc(53 / 768 * 100vw);
+        top: calc(101 / 768 * 100vw);
+        margin-top: calc(2 / 768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: calc(700 / 768 * 100vw);
+        font-size: calc(16 / 768 * 100vw);
+        line-height: calc(16 / 768 * 100vw);
+        color: #787878;
+    }
+    .input__email {
+        box-sizing: border-box;
+        position: absolute;
+        width: calc(638 / 768 * 100vw);
+        height: calc(49 / 768 * 100vw);
+        left: calc(45 / 768 * 100vw);
+        top: calc(125 / 768 * 100vw);
+        margin-top: calc(3 / 768 * 100vw);
+        border: 2px solid #787878;
+        border-radius: calc(10 / 768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: calc(700 / 768 * 100vw);
+        font-size: calc(28 / 768 * 100vw);
+        line-height: calc(36 / 768 * 100vw);
+        color: #787878;
+    }
+    .form-label__password {
+        position: absolute;
+        width: calc(84 / 768 * 100vw);
+        height: calc(16 / 768 * 100vw);
+        left: calc(53 / 768 * 100vw);
+        top: calc(187 / 768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: calc(700 / 768 * 100vw);
+        font-size: calc(16 / 768 * 100vw);
+        line-height: calc(16 / 768 * 100vw);
+        color: #787878;
+    }
+    .input__password {
+        position: absolute;
+        width: calc(638 / 768 * 100vw);
+        height: calc(49 / 768 * 100vw);
+        left: calc(45 / 768 * 100vw);
+        top: calc(211 / 768 * 100vw);
+        border: 2px solid #787878;
+        border-radius: calc(10 / 768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: calc(700 / 768 * 100vw);
+        font-size: calc(28 / 768 * 100vw);
+        line-height: calc(36 / 768 * 100vw);
+        color: #CCCCCC;
+    }
+    .checkbox {
+        position: absolute;
+        width: calc(32 / 768 * 100vw);
+        height: calc(32 / 768 * 100vw);
+        left: calc(45 / 768 * 100vw);
+        top: calc(279 / 768 * 100vw);
+        background: #FFFFFF;
+        border: 2px solid #787878;
+        border-radius: calc(7 / 768 * 100vw);
+    }
+    .text__checkbox {
+        position: absolute;
+        width: calc(358 / 768 * 100vw);
+        height: calc(16 / 768 * 100vw);
+        left: calc(87 / 768 * 100vw);
+        top: calc(287 / 768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: calc(400 / 768 * 100vw);
+        font-size: calc(14 / 768 * 100vw);
+        line-height: calc(16 / 768 * 100vw);
+        color: #787878;
+    }
+    .button {
+        position: absolute;
+        width: calc(220 / 768 * 100vw);
+        height: calc(80 / 768 * 100vw);
+        left: calc(254 / 768 * 100vw);
+        top: calc(375 / 768 * 100vw);
+        background: #1B2473;
+        border-radius: calc(10 / 768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: calc(700 / 768 * 100vw);
+        font-size: calc(50 / 768 * 100vw);
+        line-height: calc(50 / 768 * 100vw);
+        color: #787878; 
+    }
+}
+
+
+
