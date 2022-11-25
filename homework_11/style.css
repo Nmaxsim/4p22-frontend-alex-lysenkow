@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    padding: 2vw;
+	background-color: rgb(79, 148, 136);
+}
+
+.title {
+    text-align: center;
+	background: rgb(104, 124, 146);
+	border: 1px solid black;
+	border-radius: 10px;
+} 
+
+.get-users {
+    margin-left: 39vw;
+    margin-bottom: 2vw;
+    width: 15vw;
+    height: 5vw;
+    background-color: rgb(125, 85, 151);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+} 
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	row-gap: 5vw;
+	column-gap: 9vw;
+}
